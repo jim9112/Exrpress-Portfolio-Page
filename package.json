@@ -1,0 +1,23 @@
+{
+  "name": "treehouse_project_seven",
+  "version": "1.0.0",
+  "description": "Express Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim9112/Treehouse_Project_Seven.git"
+  },
+  "author": "James Hannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jim9112/Treehouse_Project_Seven/issues"
+  },
+  "homepage": "https://github.com/jim9112/Treehouse_Project_Seven#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}
