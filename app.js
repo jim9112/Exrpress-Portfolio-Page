@@ -1,5 +1,5 @@
 const express = require('express');
-
+const mainRoutes = require('./routes');
 const app = express();
 
 app.use('/static', express.static('public'));
@@ -7,7 +7,7 @@ app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
 
-const mainRoutes = require('./routes');
+
 
 app.use(mainRoutes);
 
