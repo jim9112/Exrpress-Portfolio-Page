@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A random quote generator built for my Treehouse course.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["/static/images/quote_generator.png"]
+        }
+    ]
+}
