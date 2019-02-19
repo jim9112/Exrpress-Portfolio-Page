@@ -4,14 +4,10 @@ const mainRoutes = require('./routes');
 const projectRoutes = require('./routes/project');
 const app = express();
 
-
 app.use(bodyParser.urlencoded( {extended: false}));
 app.use('/static', express.static('public'));
 
-
 app.set('view engine', 'pug');
-
-
 
 app.use(mainRoutes);
 app.use('/project', projectRoutes);
